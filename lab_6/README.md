@@ -16,3 +16,22 @@ CI_min = E_total - 2 * math.sqrt(SD_total)#Цей рядок коду обчис
 CI_max = E_total + 2 * math.sqrt(SD_total)#Цей рядок коду обчислює верхню межу інтервалу 95%
 
 print(f"Project's 95% confidence interval: {CI_min:.2f} ... {CI_max:.2f} points")#Цей рядок виводить результат на екран.
+************************************
+Enter the 'a' number (or enter '0' to finish): 4
+Enter the 'm' number: 3
+Enter the 'b' number: 4
+Enter the 'a' number (or enter '0' to finish): 2
+Enter the 'm' number: 3
+Enter the 'b' number: 4
+Enter the 'a' number (or enter '0' to finish): 5
+Enter the 'm' number: 6
+Enter the 'b' number: 7
+Enter the 'a' number (or enter '0' to finish): 8
+Enter the 'm' number: 4
+Enter the 'b' number: 2
+Enter the 'a' number (or enter '0' to finish): 34
+Enter the 'm' number: 5
+Enter the 'b' number: 6
+Enter the 'a' number (or enter '0' to finish): 0
+Project's 95% confidence interval: 17.08 ... 36.26 points
+**************************************
