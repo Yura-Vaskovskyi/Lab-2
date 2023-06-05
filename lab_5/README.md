@@ -10,3 +10,8 @@ dir import greetings #Ця команда імпортує модуль greeting
 from number_to_word import convert_number_to_word #Ця команда імпортує конкретний об'єкт word з модуля num2word.
 num = input("Enter your number: ") #Ця команда виводить рядок "Enter your number: " і чекає, доки користувач введе значення з клавіатури. Введене значення зберігається у змінній num.
 print("Your number is:"+word(num))# Ця команда виводить рядок "Your number is:" разом із перетвореним словесним представленням числа num. Вона використовує функцію word() з модуля num2word, який був імпортований раніше. Результат перетворення числа у словесне представлення додається до рядка за допомогою оператора '+'.
+****************
+Good morning!
+Enter your number:5
+Your number is:five
+******************
